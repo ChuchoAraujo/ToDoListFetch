@@ -1,12 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
-/* 
+.container {
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    font-weight:700;
+    font-family: sans-serif;
+    width: 100%;
+}
+.contenedorTarea {
+    width: 280px;
+    min-height: 65px;
+    background-color: white;
+    margin: 5px 0;
+    padding: 8px 20px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.tareaTexto{
+    color: black;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.botonEliminar {
+    float: right;
+}
+
+
+.input {
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
